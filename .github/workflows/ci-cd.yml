@@ -137,5 +137,5 @@ jobs:
           sonar-host-url: https://sonarcloud.io
           sonar-token: ${{ env.SONAR_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-           fail-on-quality-gate-error
+          branch: dev
+          fail-on-error: true
